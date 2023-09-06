@@ -1,10 +1,15 @@
-
+import React from 'react';
+import SearchForm from './SearchForm';
+import Stories from './Stories';
+import Buttons from './Buttons';
 function App() {
   return (
-    <div >
-      <h1>Hacker News</h1>
-    </div>
-  );
+    <>
+      <SearchForm />
+      <Buttons />
+      <Stories />
+    </>
+  )
 }
 
-export default App;
+export default App
